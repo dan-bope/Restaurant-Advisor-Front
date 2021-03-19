@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/good_morning_img"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/ficheMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:textSize="16sp"
+        android:text="Menus :"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:textSize="16sp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedName"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedDescription"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+
+
+</RelativeLayout>

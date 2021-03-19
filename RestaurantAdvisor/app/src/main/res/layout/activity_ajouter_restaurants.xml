@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/good_morning_img"
+    android:padding="80dp"
+    android:layout_height="match_parent"
+    tools:context=".AjouterRestaurantsActivity">
+
+    <EditText
+        android:id="@+id/name_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_restaurant"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Name Restaurant"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/description_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_description"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint=" Description Restaurants"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/grade_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_grade"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/localisation_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_location"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Localisation"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_contact_phone"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/web_site"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_web"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="WebSite"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_hour"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="hours"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_number">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/photo_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_photo"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Photo Restaurant"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hours">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_Add_Restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Ajouter Restaurants"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

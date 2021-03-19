@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/good_night_img"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantClickedActivity">
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="500dp"
+        android:layout_centerInParent="true"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/fiche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:textSize="16sp"
+        android:text="Votre restaurant :"
+        app:layout_constraintTop_toBottomOf="@+id/selectedImage"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        android:textSize="16sp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedName"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedDescription"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedLocalisation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedGrade"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedPhone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedLocalisation"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/selectedWeb_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/selectedPhone_number"
+        android:textColor="@color/white"
+        >
+    </TextView>
+
+</RelativeLayout>
